@@ -15,7 +15,7 @@ Deque.prototype.removeFront = function() {
 }
 
 Deque.prototype.removeRear = function() {
-    return this.deque_list.splice(0,1)[0];
+    return this.deque_list.shift();
 }
 
 Deque.prototype.isEmpty = function() {
